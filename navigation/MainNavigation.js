@@ -13,9 +13,9 @@ const MainNavigation = () => {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator
-				initialRouteName='Login Screen'
-				screenOptions={{ headerShown: false }}>
-				<Stack.Screen name='Login Screen' component={LoginScreen} />
+				initialRouteName='LoginScreen'
+				screenOptions={{ headerShown: false, animation: "slide_from_right" }}>
+				<Stack.Screen name='LoginScreen' component={LoginScreen} />
 				<Stack.Screen
 					name='RegistrationScreen'
 					component={RegistrationScreen}

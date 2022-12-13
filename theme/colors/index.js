@@ -28,6 +28,17 @@ const COLORS = {
 		main: "#b77eff",
 		light: "#d0abff",
 	},
+	neutral: {
+		100: "#f5f5f5",
+		200: "#d8d8d8",
+		300: "#9e9e9e",
+		400: "#b1b1b1",
+		500: "#9e9e9e",
+		600: "#7e7e7e",
+		700: "#5f5f5f",
+		800: "#3f3f3f",
+		900: "#202020",
+	},
 };
 
 export default COLORS;
